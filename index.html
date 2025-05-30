@@ -2,48 +2,55 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Claim Nitro Gift</title>
+  <title>🎁 Claim Your Nitro Gift</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta property="og:title" content="🎁 Claim Your Nitro Gift">
   <meta property="og:description" content="Click to reveal the exclusive Discord Nitro link. Limited time!">
   <meta property="og:image" content="https://yourdomain.com/preview.png">
   <meta property="og:url" content="https://yourdomain.com">
   <meta name="author" content="Wally">
+  <link rel="icon" href="https://cdn.discordapp.com/emojis/1069878292733339649.png" type="image/png">
   <style>
-    * { margin: 0; padding: 0; box-sizing: border-box; }
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
     body {
       background-color: #2b2d31;
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      color: #fff;
+      color: #ffffff;
       display: flex;
       flex-direction: column;
       align-items: center;
+      justify-content: center;
       min-height: 100vh;
       padding: 20px;
     }
     .card {
       background-color: #1e1f22;
-      padding: 30px;
+      padding: 50px;
       border-radius: 16px;
       box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
       text-align: center;
-      max-width: 400px;
+      max-width: 600px;
       width: 100%;
-      margin-top: 20px;
     }
-    h1, h2 {
+    h1 {
+      font-size: 32px;
       margin-bottom: 12px;
     }
     p {
       margin-bottom: 16px;
+      font-size: 18px;
       color: #ccc;
     }
     input, button {
-      padding: 10px;
-      font-size: 14px;
+      padding: 14px;
+      font-size: 16px;
       border-radius: 8px;
       border: none;
-      margin: 8px 0;
+      margin: 10px 0;
       width: 100%;
     }
     button {
@@ -55,14 +62,21 @@
       background-color: #4752c4;
     }
     #gift-link {
-      margin-top: 20px;
-      font-size: 15px;
-      word-wrap: break-word;
-      color: #00b0f4;
+      margin-top: 25px;
+      font-size: 20px;
+      font-weight: bold;
+      word-break: break-all;
+      color: #ffffff;
       display: none;
     }
     .emoji {
-      font-size: 28px;
+      font-size: 32px;
+      margin-bottom: 10px;
+    }
+    footer {
+      margin-top: 40px;
+      font-size: 13px;
+      color: #777;
     }
   </style>
 </head>
@@ -78,6 +92,10 @@
       <a href="https://discord.gift/tQQuYqPcUxBGdEv9" target="_blank">https://discord.gift/tQQuYqPcUxBGdEv9</a>
     </div>
   </div>
+  <footer>
+    Made by Wally
+    Contact: abc.def.ghi.jkl
+  </footer>
 
   <script>
     let correctAnswer = 0;
